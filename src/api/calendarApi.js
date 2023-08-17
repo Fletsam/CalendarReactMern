@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const calendarApi = axios.create({
-  baseURL: "https://comfy-monstera-9b3753.netlify.app/auth/login",
+  baseURL: "http://localhost:4000/api",
 });
 
 //todo : configurar interceptores
